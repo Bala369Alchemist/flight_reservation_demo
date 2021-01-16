@@ -12,4 +12,6 @@ public interface UserService {
 
 	ResponseEntity<User> getUser(Long userId);
 
+	ResponseEntity<User> addUser(User user);
+
 }

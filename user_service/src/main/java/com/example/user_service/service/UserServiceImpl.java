@@ -33,5 +33,13 @@ public class UserServiceImpl implements UserService {
 		}
 		return new ResponseEntity<User>(user,HttpStatus.OK);
 	}
+
+	@Override
+	public ResponseEntity<User> addUser(User user) {
+		
+		
+		userRepo.save(user);
+		return new ResponseEntity<User>(user,HttpStatus.OK);
+	}
 	
 }

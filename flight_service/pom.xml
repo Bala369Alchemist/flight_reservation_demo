@@ -8,10 +8,10 @@
 		<version>2.4.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example.user_service</groupId>
-	<artifactId>user_service</artifactId>
+	<groupId>com.example.flight_service</groupId>
+	<artifactId>flight_service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>user_service</name>
+	<name>flight_service</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -22,10 +22,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-mail</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
