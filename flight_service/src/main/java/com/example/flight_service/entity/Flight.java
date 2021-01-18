@@ -23,25 +23,25 @@ public class Flight {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "")
+	@Column(name = "flight_id")
 	private Long flightId;
 	
-	@Column(name = "")
+	@Column(name = "flight_number")
 	private String flightNumber;
 	
-	@Column(name = "")
+	@Column(name = "operating_airlines")
 	private String operatingAirlines;
 	
-	@Column(name = "")
+	@Column(name = "departure_city")
 	private String departureCity;
 	
-	@Column(name = "")
+	@Column(name = "arrival_city")
 	private String arrivalCity;
 	
-	@Column(name = "")
+	@Column(name = "date_of_departure")
 	private Date dateOfDeparture;
 	
-	@Column(name = "")
+	@Column(name = "estimated_departure_time")
 	private Timestamp estimatedDepartureTime;
 	
 }
