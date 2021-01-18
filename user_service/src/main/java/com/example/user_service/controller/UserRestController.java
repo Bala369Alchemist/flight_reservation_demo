@@ -30,8 +30,8 @@ public class UserRestController {
 		return userServ.getUser(userId);
 	}
 	
-	@PostMapping(value = "/{userId}")
-	public ResponseEntity<User> addUser(@PathVariable Long userId , @RequestBody User user){
+	@PostMapping(value = "/")
+	public ResponseEntity<User> addUser(@RequestBody User user){
 		return userServ.addUser(user);
 	}
 	

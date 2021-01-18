@@ -37,6 +37,7 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public ResponseEntity<User> addUser(User user) {
 		
+		// check is user with email is already registered.
 		
 		userRepo.save(user);
 		return new ResponseEntity<User>(user,HttpStatus.OK);
