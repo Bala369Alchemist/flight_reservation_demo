@@ -8,4 +8,6 @@ import com.example.flight_service.entity.Flight;
 @Repository
 public interface FlightRepository extends JpaRepository<Flight, Long> {
 
+	Flight findByFlightId(Long flightId);
+
 }
